@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="350.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/15.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="nonogrampuzzletwo.NonoFXMLController">
+   <children>
+      <VBox fx:id="vBoxRowClues" layoutY="50.0" prefHeight="250.0" prefWidth="50.0">
+         <children>
+            <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="CENTER_RIGHT" prefHeight="50.0" prefWidth="50.0" text="Label" />
+         </children>
+      </VBox>
+      <HBox fx:id="hBoxColumnClues" layoutX="50.0" prefHeight="50.0" prefWidth="250.0">
+         <children>
+            <Label alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="Label" />
+            <Label alignment="BOTTOM_CENTER" prefHeight="50.0" prefWidth="50.0" text="Label" />
+         </children>
+      </HBox>
+      <GridPane fx:id="gPaneNonogram" layoutX="50.0" layoutY="50.0" prefHeight="250.0" prefWidth="250.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="0" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="0" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+            <Button mnemonicParsing="false" onAction="#handlebtnTgl" prefHeight="50.0" prefWidth="50.0" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+         </children>
+      </GridPane>
+      <Button fx:id="btnClose" layoutX="100.0" layoutY="310.0" mnemonicParsing="false" onAction="#handlebtnClose" prefHeight="30.0" prefWidth="50.0" text="Close" />
+      <Button fx:id="btnNG" layoutX="150.0" layoutY="310.0" mnemonicParsing="false" onAction="#handlebtnNG" prefHeight="30.0" prefWidth="50.0" text="N.G." />
+      <Button fx:id="btnReset" layoutX="200.0" layoutY="310.0" mnemonicParsing="false" onAction="#handlebtnReset" prefHeight="30.0" prefWidth="50.0" text="Reset" />
+   </children>
+</AnchorPane>
